@@ -91,47 +91,133 @@
     <span>call of duty</span>
     <p>this is Second paragraph,<br>
         test first all</p>
-        <hr>
-        <p>Samuel</p>
-        <hr>
-        <div class="food">
-            <div>
-                <h3>Book Food</h3>
-                <p>how coock pizzy</p>
-                <samp>$25</samp>
-            </div>
+    <hr>
+    <p>Samuel</p>
+    <hr>
+    <div class="food">
+        <div>
+            <h3>Book Food</h3>
+            <p>how coock pizzy</p>
+            <samp>$25</samp>
         </div>
-        <hr>
-        <div class="play">
-            <div>
-                <h3>Book games</h3>
-                <p>how instull the best play</p>
-                <samp>for free</samp>
-            </div>
+    </div>
+    <hr>
+    <div class="play">
+        <div>
+            <h3>Book games</h3>
+            <p>how instull the best play</p>
+            <samp>for free</samp>
         </div>
-        <hr>
-        <div class="since">
-            <div>
-                <h3>space X</h3>
-                <p>the best istation</p>
-                <samp>$123531000</samp>
-            </div>
+    </div>
+    <hr>
+    <div class="since">
+        <div>
+            <h3>space X</h3>
+            <p>the best istation</p>
+            <samp>$123531000</samp>
         </div>
-        <hr>
-        <div class="foodball">
-            <div>
-                <h3>Book store in Messi</h3>
-                <p>Messi the best warld cup</p>
-                <samp>$160</samp>
-            </div>
+    </div>
+    <hr>
+    <div class="foodball">
+        <div>
+            <h3>Book store in Messi</h3>
+            <p>Messi the best warld cup</p>
+            <samp>$160</samp>
         </div>
-        <div>this my &lt;book&gt; store &copy;</div>
-        <header>head of  website</header>
-        <nav>Link - Link - Link</nav>
-        <section>
-            <aside> ga g</aside>
-            <footer>fdsfs</footer>
-        </section>
+    </div>
+    <div>this my &lt;book&gt; store &copy;</div>
+    <header>head of website</header>
+    <nav>Link - Link - Link</nav>
+    <hr>
+    <audio controls loop muted>
+        <source src="./Audio/test.mp3" type="audio/mpeg">
+        <!-- <source src="/Audio/03.عارفنى.mp3" type="audio/oog"> -->
+        Your Browser Does Not Support Audio Tags
+
+    </audio>
+    <hr>
+    <video controls width="400" height="200" loop autoplay muted poster="">
+        <source src=".media/ghosts.mp4" type="vide/mp4">
+        <source src=".media/ghosts.oog" type="video/ogg">
+        Your Browser Does Not Support video Tags
+        <track src="my_file_en.vtt" kind="subtitles" srclang="en" label="englesh">
+        <track src="my_file_en.vtt" kind="subtitles" srclang="it" label="italan">
+    </video>
+    <hr>
+    <form action="" method="get">
+        <input type="hidden" value="Samuel">
+        <div>
+            <label>username</label>
+            <input type="text" 
+            required placeholder="Username" 
+            name="name"
+            value="Samuel"
+             readonly >
+        </div>
+        <br>
+        <div>
+            <label>password</label>
+            <input type="password"
+             required placeholder="password" 
+             name="pas"
+             autofocus minlength="5"
+              maxlength="15">
+        </div>
+        <br>
+        <div>
+            <label for="Phone"> Phone </label>
+            <input id="Phone" type="number"
+            required placeholder='number'
+             name='Phone'>
+        </div>
+        <br>
+        <div>
+            <label for="ag"> age </label>
+            <input id="ag" type="number"
+            required placeholder="age"
+             name="number">
+        </div>
+        <br>
+        <label>color</label>
+        <input type="color" name="color">
+        <br>
+        <label>range</label>
+        <input type="range"
+         name="range"
+          min="0"
+           max="100"
+           step="10"
+            value="50">
+        <br>
+        <label> Email </label>
+        <input type="email"
+         placeholder="text Email"
+          value="Email@gmil.com"
+          disabled>
+          <div>
+            <input id="Win" type="radio"name='os' value="Windous">
+            <label for="Win">Windous</label>
+        </div>
+         
+          <div>
+            <input id="MAC" type="radio"name='os' value="MAC"checked>
+            <label for="MAC">MAC</label>
+        </div>
+         
+          <div>
+              <input id="Lnx" type="radio"name='os' value="Linux">
+              <label for="Lnx">Linux</label>
+          </div>
+          <hr>
+        <p>
+            <input type="submit"
+             value="Save">
+            <input type="reset" 
+            value="reset">
+        </p>
+        
+    </form>
 </body>
+
 
 </html>
