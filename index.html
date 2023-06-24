@@ -195,20 +195,57 @@
           value="Email@gmil.com"
           disabled>
           <div>
-            <input id="Win" type="radio"name='os' value="Windous">
+            <input id="Win" type="radio" name='os2' value="Windous">
             <label for="Win">Windous</label>
+            <input id="distro" type="radio" name='os2' value="Distro">
+            <label for="Win">Distro</label>
         </div>
          
           <div>
-            <input id="MAC" type="radio"name='os' value="MAC"checked>
+            <input id="MAC" type="radio" name='os' value="MAC" checked>
             <label for="MAC">MAC</label>
         </div>
          
           <div>
-              <input id="Lnx" type="radio"name='os' value="Linux">
+              <input id="Lnx" type="radio" name='os' value="Linux">
               <label for="Lnx">Linux</label>
           </div>
           <hr>
+
+          <div>
+            <input id="Win1" type="checkbox"name='os' value="Windous">
+            <label for="Win1">Windous</label>
+        </div>
+         
+          <div>
+            <input id="MAC1" type="checkbox"name='os' value="MAC"checked>
+            <label for="MAC1">MAC</label>
+        </div>
+         
+          <div>
+              <input id="Lnx1" type="checkbox"name='os' value="Linux">
+              <label for="Lnx1">Linux</label>
+            </div>
+            <div>
+          <hr>
+          <label for="books"> Choose Book</label>
+          <select name="books" id="books" multiple>
+            <optgroup label="Car">
+                <option value="1">Supra Mk4</option>
+                <option value="2"selected>BMW</option>
+                <option value="3">GT-R</option>
+            </optgroup>
+
+            <optgroup label="Anime">
+                <option value="4">Attack On Titen</option>
+                <option value="5">Demon Slayer</option>
+                <option value="6">Dith Note</option>
+            </optgroup>
+        </select>
+         </div>
+         <hr>
+         <textarea name="Windous" id="" cols="30" rows="10"placeholder='text all like you'></textarea>
+         <hr>
         <p>
             <input type="submit"
              value="Save">
