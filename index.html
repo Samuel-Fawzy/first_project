@@ -144,10 +144,10 @@
         <track src="my_file_en.vtt" kind="subtitles" srclang="it" label="italan">
     </video>
     <hr>
-    <form action="" method="get">
+    <form action="" method="get" novalidate target="_blank">
         <input type="hidden" value="Samuel">
         <div>
-            <label>username</label>
+             <label>username</label> 
             <input type="text" 
             required placeholder="Username" 
             name="name"
@@ -245,14 +245,53 @@
          </div>
          <hr>
          <textarea name="Windous" id="" cols="30" rows="10"placeholder='text all like you'></textarea>
-         <hr>
-        <p>
-            <input type="submit"
-             value="Save">
-            <input type="reset" 
-            value="reset">
-        </p>
-        
+            <hr>
+            <div>
+                <label>Upload:</label>
+                <input type="file">
+            </div>
+            <hr>
+            <div>
+                <label>search:</label>
+                <input type="search">
+            </div>
+            <hr>
+            <div>
+                <label>Url:</label>
+                <input type="Url">
+            </div>
+            <hr>
+            <div>
+                <label>Time:</label>
+                <input type="time">
+            </div>
+            <hr>
+            <div>
+                <label>date:</label>
+                <input type="date">
+            </div>
+            <hr>
+            <input list="programing" name="programing">
+
+            <datalist id="programing">
+                
+                <option value="cc">
+                    <option value="phton">
+                        <option value="gfgd">
+                            <option value="prgdgofdgraming"></option>
+                            <option value="fghfhf"></option>
+                            <option value="prokkhghkg"></option>
+
+                        </option>
+                    </option>
+                </option>
+            </datalist>
+
+            <p>
+                <input type="submit" value="Save">
+                <input type="reset" value="reset">
+            </p>
+
     </form>
 </body>
 
